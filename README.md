@@ -53,12 +53,17 @@ Things should do one thing and do it well.
 
 Used for validating input and providing a Good Error Message
 ValidationPipe has great options like whitelist & forbidNonWhitelisted in the error panel.
+
+```
 app.useGlobalPipes(
 new ValidationPipe({
 whitelist: true,
 forbidNonWhitelisted: true,
 }),
 
+```
+
+```
 Output:
 {
 "statusCode": 400,
@@ -70,6 +75,7 @@ Output:
 ],
 "error": "Bad Request"
 }
+```
 
 ## Things to know while Unit Testing & End-to-End Testing!
 
