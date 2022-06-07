@@ -71,6 +71,15 @@ Output:
 "error": "Bad Request"
 }
 
+## Things to know while Unit Testing & End-to-End Testing!
+
+```bash
+
+$ Setup the test application also to behave like the real application.
+
+$ You have to replicate the same state of your real application on the test to get the same output as expected.
+```
+
 ## Installation
 
 ```bash
